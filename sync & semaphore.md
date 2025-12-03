@@ -586,7 +586,7 @@ class Pair<T, U> {
 
 # Summary
 
-| Concept               | ELI5 Explanation                                                                                 |
+| Concept               | Explanation                                                                                 |
 | --------------------- | ------------------------------------------------------------------------------------------------ |
 | **Atomic Types**      | A safe calculator that never makes mistakes, even when many kids press buttons at the same time. |
 | **ConcurrentHashMap** | Many lockers instead of one big locker → multiple people can store and retrieve items at once.   |

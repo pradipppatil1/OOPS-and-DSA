@@ -66,4 +66,23 @@ Two types:
 * Achieved through **Method Overriding** (subclass provides specific implementation of a parent method)
 
 ---
+# Java Access Modifiers
+
+## Access Modifier Comparison Table
+
+| Access Modifier             | Accessible Within Same Class | Accessible Within Same Package | Accessible in Subclass (Different Package) | Accessible From Anywhere |
+| --------------------------- | ---------------------------- | ------------------------------ | ------------------------------------------ | ------------------------ |
+| **public**                  | ✔️ Yes                       | ✔️ Yes                         | ✔️ Yes                                     | ✔️ Yes                   |
+| **protected**               | ✔️ Yes                       | ✔️ Yes                         | ✔️ Yes (through inheritance)               | ❌ No                     |
+| **default** *(no modifier)* | ✔️ Yes                       | ✔️ Yes                         | ❌ No                                       | ❌ No                     |
+| **private**                 | ✔️ Yes                       | ❌ No                           | ❌ No                                       | ❌ No                     |
+
+---
+
+## Quick Notes
+
+* **public** → Accessible everywhere.
+* **protected** → Accessible in same package + subclasses in other packages.
+* **default** → Accessible only within the same package.
+* **private** → Accessible only within the same class.
 

@@ -91,11 +91,11 @@ Two types:
 
 ## 1. Copy Constructor
 
-### ✔️ Definition
+###  Definition
 
 A constructor that creates a new object by copying fields from an existing object.
 
-### ✔️ Syntax
+###  Syntax
 
 ```java
 public Student(Student old) {
@@ -104,13 +104,13 @@ public Student(Student old) {
 }
 ```
 
-### ✔️ Why is it needed?
+###  Why is it needed?
 
 * To create independent objects with same values
 * To avoid unwanted shared references
 * Useful when cloning or making backups of objects
 
-### ✔️ Key Point
+###  Key Point
 
 Java does **not** provide an automatic copy constructor — you must write it manually.
 
@@ -177,7 +177,7 @@ st2.name = "Hello"; // New memory created
 
 ## 6. Pass by Value vs Pass by Reference
 
-### ✔️ Very Important
+###  Very Important
 
 **Java is always *Pass By Value*.**
 
@@ -222,15 +222,15 @@ C++ uses destructors since memory must be freed manually.
 
 ## 8. Inheritance
 
-### ✔️ Definition
+###  Definition
 
 A mechanism where one class inherits fields and methods of another.
 
-### ✔️ Keywords
+###  Keywords
 
 `extends` → class inheritance
 
-### ✔️ Example
+###  Example
 
 ```
 Animal  
@@ -238,7 +238,7 @@ Animal
       └── Dog  
 ```
 
-### ✔️ Benefits
+###  Benefits
 
 * Code reuse
 * Clean hierarchy
@@ -267,20 +267,20 @@ a.speak();  // Dog's method executed
 
 ---
 
-## 10. Abstraction (Quick Recap)
+## 10. Abstraction
 
-### ✔️ Definition
+###  Definition
 
 Hiding internal details and showing only essential behavior.
 
-### ✔️ Achieved Using
+###  Achieved Using
 
 * Abstract classes
 * Interfaces
 
 ---
 
-# 🔥 Final Quick Summary (Fast Revision)
+#  Final Quick Summary (Fast Revision)
 
 | Topic            | Key Point                            |
 | ---------------- | ------------------------------------ |
@@ -419,7 +419,7 @@ void printHello(String name, int age) { }
 
 ## 2. Runtime Polymorphism
 
-### ✔️ Method Overriding
+###  Method Overriding
 
 ### Rules:
 
